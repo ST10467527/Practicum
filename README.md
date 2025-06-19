@@ -7,3 +7,9 @@ This is a screenshot of the second screen, this allows you to view your playlist
 The next screenshot displays the Kotlin code for the home screen (screen 1)
 ![Screenshot 2025-06-19 104647 Source Code (Second Screen)](https://github.com/user-attachments/assets/9d892dea-9c53-4259-af9d-2897c2d19596)
 The next screenshot displays the Kotlin code for the Display Screen (screen 2)
+![Screenshot 2025-06-19 112137 running app](https://github.com/user-attachments/assets/3ab58250-f555-41ca-90bc-43d723a6f755)
+Screenshot of the app while its running 
+
+
+Link to GIT HUB repository 
+https://github.com/ST10467527/Practicum
