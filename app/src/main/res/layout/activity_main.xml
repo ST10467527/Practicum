@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Input: Item Name -->
+    <EditText
+        android:id="@+id/songtitle"
+        android:layout_width="385dp"
+        android:layout_height="69dp"
+        android:hint="Song Title" />
+
+    <!-- Input: Category -->
+    <EditText
+        android:id="@+id/ArtistName"
+        android:layout_width="385dp"
+        android:layout_height="64dp"
+        android:hint="Artist Name" />
+
+    <!-- Input: Quantity -->
+    <EditText
+        android:id="@+id/rating"
+        android:layout_width="384dp"
+        android:layout_height="59dp"
+        android:hint="Rating"
+        android:inputType="number" />
+
+    <!-- Input: Comment -->
+    <EditText
+        android:id="@+id/userComments"
+        android:layout_width="385dp"
+        android:layout_height="64dp"
+        android:hint="Comment" />
+
+    <!-- Feedback Message -->
+    <TextView
+        android:id="@+id/feedbackTextView"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:paddingTop="8dp"
+        android:text=""
+        android:textColor="#FF0000" />
+
+    <!-- Button: Add Item -->
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add to playlist" />
+
+    <!-- Button: View List -->
+    <Button
+        android:id="@+id/viewListButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Playlist" />
+
+    <!-- Button: Exit -->
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit App" />
+</LinearLayout>
